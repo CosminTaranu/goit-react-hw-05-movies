@@ -1,0 +1,13 @@
+.navContainer {
+    display: flex;
+    
+}
+.navItems {
+display: flex;
+min-width: 110px;
+margin-left: 10px;
+align-items: flex-start;
+justify-content: space-between;
+
+
+}

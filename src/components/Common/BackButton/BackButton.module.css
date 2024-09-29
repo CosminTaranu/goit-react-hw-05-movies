@@ -1,0 +1,25 @@
+.backLink {
+  margin-bottom: 24px;
+}
+
+.backLink a {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  color: blueviolet;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.backLink a:hover {
+  text-decoration: underline;
+}
+
+.backLink a svg {
+  height: 30px;
+  width: 30px;
+}
+
+.backLink a span {
+  line-height: 30px;
+}

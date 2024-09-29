@@ -1,0 +1,22 @@
+.reviewsCard {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.reviewsCard div {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 7px;
+}
+
+.reviewsCard div p:first-of-type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.reviewsCard .content {
+  font-style: italic;
+  text-indent: 35px;
+}

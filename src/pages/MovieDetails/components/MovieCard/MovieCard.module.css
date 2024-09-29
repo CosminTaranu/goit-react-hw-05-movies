@@ -1,0 +1,43 @@
+.movieCard {
+  display: flex;
+  gap: 35px;
+}
+
+.movieimage img {
+  width: 300px;
+}
+
+.movieTitle {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.release_date,
+.genres,
+.runtime {
+  display: flex;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.release_date p:first-of-type,
+.genres p:first-of-type,
+.runtime p:first-of-type,
+.overview p:first-of-type {
+  font-weight: bold;
+}
+
+.overview {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.overview p:nth-of-type(2) {
+  font-style: italic;
+  text-indent: 35px;
+}
